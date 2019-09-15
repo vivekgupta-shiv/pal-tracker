@@ -22,7 +22,7 @@ public class EnvController {
         this.memoryLimit = memoryLimit;
         this.cfInstanceIndex = cfInstanceIndex;
         this.cfInstanceAddress = cfInstanceAddress;
-        /*Hello world*/
+        /*Hello world b*/
     }
     @GetMapping("/env")
     public Map<String, String> getEnv(){
